@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    background-image: linear-gradient(to right, #5f72bd 0%, #9b23ea 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section div{
+    width: 600px;
+    margin-bottom: 3%;
+    
+}
+
+section  h1{
+    font-size: 38px;
+    color: white;
+    font-weight: bold;
+    margin:0 0 15% 14%;
+    
+}
+
+.input1{
+    width: 300px;
+    height: 50px;
+  
+}
+
+.input2{
+    width: 150px;
+    height: 50px;
+    margin-left: 1%;
+}
+
+ section div span{
+    display: inline-block;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: -7px;
+    left: -5px;
+    cursor: pointer;
+
+ }
+
+ .plus{
+    color: purple;
+ }
+
+ .down{
+    background-color:purple ;
+    color: white;
+ }
+
+ .tasks{
+    display: flex;
+    flex-direction: column;
+    margin-left: 9%;
+ }
+
+ .tasks h3{
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    display: inline-block;
+    padding-left: 7px;
+    padding-top: 11px;
+    font-weight: 300;
+    font-size: 21px;
+    
+ }
+
+ .check{
+    background-color:#5f72bd ;
+    cursor: pointer;
+ }
+
+ .empty{
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+ }
