@@ -92,3 +92,11 @@ section  h1{
     color: white;
     cursor: pointer;
  }
+
+ .hidden{
+   opacity: 0.5;
+ }
+
+ .hidden h3{
+   text-decoration: line-through;
+ }
